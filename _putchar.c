@@ -4,12 +4,12 @@
  * _putchar writes character c to stdout
  * @c - the character to print
  *
- * Return: on success 1,
- * n error or fail. -1
+ * Return: on success 1
  */
 
 int _putchar(char c)
 {
-	return (write (1, &c, 1));
+	putchar(c);
+	return 1;
 }
 
