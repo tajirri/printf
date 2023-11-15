@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * printhex_s - prints string
+ * @val: string value
+ * return: characters
+ */
+
 int printhex_s(va_list val)
 {
 	char str;
@@ -24,5 +30,11 @@ int printhex_s(va_list val)
 			}
 			lenn = len + print_X(vall);
 		}
+		else
+		{
+			_putchar(str[a]);
+			lenn++;
+		}
 	}
+	return (lenn);
 }

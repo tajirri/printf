@@ -6,10 +6,27 @@
  * Return: anything
  */
 
-int print_X(va_list val)
+int print_X(unsigned int numb)
 {
 	int a, count = 0;
 	int *arr;
-	unsigned int numb = va_arg(val, unsigned int);
-	unsigned int tem = numb;
+	unsigned int temp = numb;
+
+	while (numb / 16 != 0)
+	{
+		numb = numb / 16;
+		count++;
+	}
+	count++;
+	arr = malloc(sizeof(int) * count);
+	if (arr == NULL)
+		return (NULL);
+	for (a = 0; a < count; a++)
+	{
+		if (arr[a] > 0)
+			arr[a] = arr[a] + 7;
+		_putchar(arr[a] = '0');
+	}
+	free(arr);
+	return (count);
 }

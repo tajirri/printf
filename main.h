@@ -18,5 +18,7 @@ int print_b(va_list val);
 int printf_i(va_list args);
 int printf_d(va_list args);
 >>>>>>> e60cc70a7a68362eed69c6e56d8d22ca42442e6d
+int print_X(unsigned int numb);
+int printhex_s(va_list val);
 
 #endif
