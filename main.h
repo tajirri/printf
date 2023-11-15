@@ -17,5 +17,9 @@ int printf_i(va_list args);
 int printf_d(va_list args);
 int print_X(unsigned int numb);
 int printhex_s(va_list val);
+int print_p(va_list val);
+int print_p(va_list val);
+int print_rev_str(va_list val);
+int print_rot13_str(va_list val);
 
 #endif
