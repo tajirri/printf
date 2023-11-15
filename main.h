@@ -12,6 +12,11 @@ int _printf(const char *format, ...);
 int _strlen(char *str);
 int _strlench(const char *str);
 int printf_37(void);
+<<<<<<< HEAD
 int print_b(va_list val);
+=======
+int printf_i(va_list args);
+int printf_d(va_list args);
+>>>>>>> e60cc70a7a68362eed69c6e56d8d22ca42442e6d
 
 #endif
