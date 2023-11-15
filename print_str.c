@@ -6,13 +6,13 @@
  * Return l
  */
 
-int printf_str(va_list vl)
+int printf_str(va_list val)
 {
 	char *str;
 	int n;
 	int l;
 
-	str = va_arg(vl, char *);
+	str = va_arg(val, char *);
 	if (str == NULL)
 	{
 		str = "(null)";
