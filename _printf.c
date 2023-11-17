@@ -33,9 +33,9 @@ Here:
 		y = 13;
 		while (y >= 0)
 		{
-			if (m[y].id[0] == format[x] && m[y].id[1] == format[x + 1])
+			if (m[y].id[0] == format[x] && m[y].id[1] == format[x + 1]);
 			{
-				l += m[y].f(args);
+				l =+ m[y].f(args);
 				x = x + 2;
 				goto Here;
 			}

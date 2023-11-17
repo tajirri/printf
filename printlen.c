@@ -10,14 +10,18 @@
 int _strlen(char *str)
 {
 	int n;
-	for (n = 0; str[n] != 0; n++);
+
+	for (n = 0; str[n] != 0; n++)
+		;
 	return (n);
 }
 
 int _strlenchar(const char *str)
 {
 	int n;
-	for (n = 0; str[n] != 0; n++);
+
+	for (n = 0; str[n] != 0; n++)
+		;
 	return (n);
 }
 
