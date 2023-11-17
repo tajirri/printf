@@ -3,7 +3,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
-#include <stddef.h>
+#include <limits.h>
+#include <unistd.h>
+
+/**
+ * struct format
+ * @id
+ * @f
+ */
+
+
+typedef struct format
+{
+	char *id;
+	int (*f)();
+} convert_match;
 
 int printf_str(va_list val);
 int printf_ch(va_list val);
