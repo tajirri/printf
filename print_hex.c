@@ -17,7 +17,7 @@ int print_hex(va_list val)
 
 	while (y / 16 != 0)
 	{
-		y =/ 16;
+		y = / 16;
 		counter++;
 	}
 	counter++;
@@ -36,5 +36,5 @@ int print_hex(va_list val)
 		_putchar(array[x] + 0);
 	}
 	free(array);
-	return counter;
+	return (counter);
 }

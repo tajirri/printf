@@ -15,8 +15,8 @@ int print_rot13_str(va_list val)
 
 	if (str == NULL)
 		str = "(null)";
-       for (a = 0; str[a]; a++)
-       {
+	for (a = 0; str[a]; a++)
+	{
 		c = 0;
 		for (b = 0; x[b] && !c; b++)
 		{
@@ -32,6 +32,6 @@ int print_rot13_str(va_list val)
 			_putchar(str[a]);
 			count++
 		}
- 	}
-       return (coun);
+	}
+	return (coun);
 }
