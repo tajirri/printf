@@ -37,7 +37,6 @@ int prinf_o(va_list val);
 int print_hex(va_list val);
 int print_HEX(va_list val);
 int print_p(va_list val);
-int print_p(va_list val);
 int print_rev_str(va_list val);
 int print_rot13_str(va_list val);
 
